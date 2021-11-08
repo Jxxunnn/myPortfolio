@@ -1,3 +1,240 @@
 * {
+  box-sizing: border-box;
+  margin: 0;
   font-family: "Open Sans", sans-serif;
+}
+.title,
+.sub-title .desc,
+strong,
+h3 {
+  text-align: center;
+}
+.title {
+  font-size: 35px;
+}
+
+/* home css */
+
+.home {
+  background-image: url(asset/home-background.png);
+  padding: 20px 20px;
+}
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.nav_logo {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 700;
+  text-decoration: none;
+  color: inherit;
+}
+.nav_logo span {
+  display: block;
+}
+.nav_logo span:first-child {
+  margin-right: 3px;
+}
+.nav_buttonGruop a {
+  font-size: 13px;
+  padding: 5px 10px;
+  background-color: inherit;
+  border: 1px solid black;
+  margin-right: 5px;
+  text-decoration: none;
+  color: inherit;
+}
+.nav_buttonGruop a:last-child {
+  margin-right: 0;
+}
+
+.nav_buttonGruop a:hover {
+  opacity: 0.5;
+}
+
+.home_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.home_profile {
+  height: 200px;
+  margin-bottom: 20px;
+}
+.home_profile img {
+  display: block;
+  height: 100%;
+  width: auto;
+  border-radius: 50%;
+  border: 1px solid white;
+}
+.home .title {
+  margin-bottom: 10px;
+  font-size: 35px;
+}
+.home .sub-title {
+  margin-bottom: 20px;
+}
+.home_contact {
+  background-color: inherit;
+  border: 2px solid black;
+  font-weight: 700;
+  padding: 5px 10px;
+  text-decoration: none;
+  color: inherit;
+}
+.home_contact:hover {
+  opacity: 0.5;
+}
+/* about css */
+
+.about .title {
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+.about .desc:first-child {
+}
+.about .about_stack {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.about_stack li {
+  text-align: center;
+}
+.about_stack li div {
+  height: 100px;
+  width: 100px;
+  border: 2px solid black;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+.about_stack li div i {
+  font-size: 40px;
+}
+.about_stack li strong {
+  display: block;
+  margin-bottom: 5px;
+}
+.about_career li {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+.about_career i {
+  display: block;
+  margin-right: 15px;
+  font-size: 20px;
+}
+.about_career div {
+  display: flex;
+  flex-direction: column;
+}
+
+/* skills css */
+.skill {
+  background-color: beige;
+  padding-top: 40px;
+  margin-top: 30px;
+  padding-bottom: 70px;
+}
+.skill .title {
+  margin-bottom: 15px;
+}
+.skill .sub-title {
+  text-align: center;
+  margin-bottom: 10px;
+}
+.skill .desc {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.skill_content {
+  height: 300px;
+  width: auto;
+  background-color: blue;
+  margin: 0 50px 0 50px;
+  display: flex;
+  padding: 20px 40px 20px 40px;
+}
+.skill_content ul {
+  list-style: none;
+}
+.skill_content_table {
+  width: 60%;
+}
+.skill_content_table h3 {
+  text-align: center;
+}
+.skill_content_table span {
+  display: block;
+}
+.skill_content_table li div:first-child {
+  display: flex;
+  justify-content: space-between;
+}
+.skill_content_table li div:last-child {
+  background-color: blueviolet;
+  height: 3px;
+}
+.skill_content_table li:first-child div:last-child {
+  width: 99%;
+}
+.skill_content_table li:nth-child(2) div:last-child {
+  width: 90%;
+}
+.skill_content_table li:nth-child(3) div:last-child {
+  width: 80%;
+}
+.skill_content_table li:nth-child(4) div:last-child {
+  width: 88%;
+}
+.skill_content_table li:nth-child(5) div:last-child {
+  width: 77%;
+}
+.skill_content_list {
+  text-align: center;
+  margin: 0 auto;
+}
+.skill_content_list ul {
+  padding-left: 0;
+}
+
+/* project */
+.project {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.project_box {
+}
+.project_box_row1,
+.project_box_row2 {
+  display: flex;
+}
+.project_box_row1 div,
+.project_box_row2 div {
+  height: 100px;
+  width: 100px;
+  margin-right: 2px;
+  margin-bottom: 2px;
+  background-color: blueviolet;
+}
+/* testimonials css */
+.testimonal {
+  background-color: burlywood;
 }
