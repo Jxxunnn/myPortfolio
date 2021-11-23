@@ -20,27 +20,31 @@
     <script src="main.js" defer></script>
   </head>
   <body>
-    <section class="home">
-      <nav class="nav-bar">
-        <a href="#" class="nav_logo"><span>🧑🏻</span><span>이준근</span></a>
-        <div class="nav_buttonGruop">
-          <a href="#">Home</a>
-          <a href="#">About</a>
-          <a href="#">Skills</a>
-          <a href="#">My work</a>
-          <a href="#">Testimonial</a>
-          <a href="#">Contact</a>
-        </div>
-      </nav>
-      <div class="home_container">
-        <div class="home_profile"><img src="asset/profile.jpg" alt="" /></div>
-        <h1 class="title">Hello,<br />I'm Dream Coder</h1>
-        <h2 class="sub-title">
-          A Software Engineer currently residing in Sydney, Australia.
-        </h2>
-        <a href="#" class="home_contact">CONTACT ME</a>
+    <!-- Navbar -->
+    <nav class="navbar">
+      <div class="navbar__logo">
+        <a href="#">🧑🏻</a>
+        <a href="#">이준근</a>
       </div>
-    </section>
+          <ul class="navbar__menu">
+            <li class="navbar__menu__item">Home</li>
+            <li class="navbar__menu__item">About</li>
+            <li class="navbar__menu__item">Skills</li>
+            <li class="navbar__menu__item">My work</li>
+            <li class="navbar__menu__item">Testimonial</li>
+            <li class="navbar__menu__item">Contact</li>
+          </ul>      
+    </nav>
+    <!-- Home -->
+    <section class="home">
+      <img class="home__avatar" src="asset/profile.jpg" alt="Jun's photo" /></div>
+      <h1 class="home__title">Hello,<br />I'm Dream Coder</h1>
+      <h2 class="home__description">
+        A Software Engineer currently residing in Sydney, Australia.
+      </h2>
+      <button class="home__contact">CONTACT ME</button>
+  </section>
+    <!-- About -->
     <section class="about">
       <h1 class="title">About me</h1>
       <p class="desc">
@@ -106,6 +110,7 @@
         </li>
       </ul>
     </section>
+    <!-- Skill -->
     <section class="skill">
       <h1 class="title">Skills</h1>
       <h2 class="sub-title">Skills & Attributes</h2>
@@ -157,6 +162,7 @@
 <div><h3>Etc</h3><h3>Git</h3></div>
 </div>
     </section>
+    <!-- Project -->
     <section class="project">
       <h1 class="title">My work</h1>
       <h3>Projects</h3>
@@ -178,7 +184,8 @@
       </div>
     </div>
     </section>
-    <section class="testimonal">
+    <!-- Testimonial -->
+    <section class="testimonial">
       <h1 class="title">Testimonials</h1>
       <h3>See what they say about me</h3>
       <div><div><img src="" alt=""></div><div>
@@ -194,7 +201,8 @@
       <div><img src="" alt=""></div></div>
 
     </section>
-    <footer>
+    <!-- Contact -->
+    <footer class="contact">
       <h1></h1>
       <h3></h3>
     </footer>
