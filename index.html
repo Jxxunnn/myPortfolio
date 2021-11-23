@@ -16,7 +16,7 @@
       href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" />
+    <!-- <link rel="stylesheet" href="style.css" /> -->
     <script src="main.js" defer></script>
   </head>
   <body>
@@ -163,43 +163,46 @@
 </div>
     </section>
     <!-- Project -->
-    <section class="project">
-      <h1 class="title">My work</h1>
+    <section class="work">
+      <h1>My work</h1>
       <h3>Projects</h3>
-      <div class="project_buttonGroup">
-        <button>All</button><button>Front-end</button><button>Back-end</button><button>Mobile</button>
+      <div class="work__category">
+        <button class="category__btn">All<span class="category__count">8</span></button>
+        <button class="category__btn">Front-end<span class="category__count">3</span></button>
+        <button class="category__btn">Back-end<span class="category__count">3</span></button>
+        <button class="category__btn">Mobile<span class="category__count">82</span></button>
       </div>
-      <div class="project_box">
-      <div class="project_box_row1">
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-      </div>
-        <div class="project_box_row2">
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-      </div>
-    </div>
+      <div class="work__project">
+        <a href=# class="project" target="blank">
+        <img class="project__img" src="asset/favicon.png" alt="project">
+        <div class="project__describtion">
+          <h3>Youtube Site</h3>
+          <span>Clone coding with HTML and CSS</span>
+        </div>
+      </a>
+    
     </section>
     <!-- Testimonial -->
-    <section class="testimonial">
-      <h1 class="title">Testimonials</h1>
+    <section class="testimonials">
+      <h1>Testimonials</h1>
       <h3>See what they say about me</h3>
-      <div><div><img src="" alt=""></div><div>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, voluptates!</p>
-          <p><strong>준근</strong>/TigerSpike</p>
-        
-      </div></div>
-      <div><div>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum, maxime.</p>
-          <p><strong>준근</strong>/TigerSpike</p>
-        
+      <div class="testimonial">
+        <div>
+          <img class="testimonial__avater" src="asset/profile.jpg" alt="people"/>
+          <div class="testiminial__speech-bubble">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisici</p>
+            <p class="name"><a href="#">June</a> / TigerSpike</p>
+          </div>
+        </div>
+        <div>
+          <img class="testimonial__avater" src="asset/profile.jpg" alt="people"/>
+          <div class="testiminial__speech-bubble">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisici</p>
+            <p class="name"><a href="#">June</a> / TigerSpike</p>
+          </div>
+        </div>
       </div>
-      <div><img src="" alt=""></div></div>
-
+  
     </section>
     <!-- Contact -->
     <footer class="contact">
