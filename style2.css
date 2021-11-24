@@ -64,12 +64,12 @@ button {
 /* Typography */
 h1 {
   font-size: var(--font-large);
-  font-weight: var(--font-large);
+  font-weight: var(--weight-bold);
   color: var(--color-black);
   margin: 16px 0px;
 }
 h2 {
-  font-size: var(--font-regular);
+  font-size: var(--font-medium);
   font-weight: var(--weight-semi-bold);
   color: var(--color-black);
   margin: 8px 0px;
@@ -391,4 +391,30 @@ section {
 }
 .testimonial__speech-bubble a {
   color: var(--color-pink);
+}
+
+/* Contact */
+.contact {
+  background-color: var(--color-pink);
+}
+.contact__title,
+.contact__email,
+.contact__right {
+  color: var(--color-white);
+}
+.contact__email {
+  font-weight: var(--weight-regular);
+}
+
+.contact__link {
+  margin: 15px 0;
+  display: flex;
+  justify-content: center;
+}
+.contact__link a:hover {
+  transform: scale(1.1);
+  color: var(--color-yellow);
+}
+.contact__link a span {
+  font-size: 32px;
 }
