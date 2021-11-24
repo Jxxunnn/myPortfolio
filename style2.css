@@ -304,7 +304,6 @@ section {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  max-width: 1200px;
 }
 .project {
   width: 280px;
