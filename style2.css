@@ -224,6 +224,7 @@ section {
   display: flex;
   background-color: var(--color-light-grey);
   color: var(--color-light-white);
+  margin: 32px 0;
 }
 .skillset__title {
   color: var(--color-white);
@@ -366,6 +367,9 @@ section {
   display: flex;
   align-items: center;
   margin: 32px 0;
+}
+.testimonial__container:nth-child(2) {
+  justify-content: flex-end;
 }
 .testimonial__avater {
   width: 150px;
