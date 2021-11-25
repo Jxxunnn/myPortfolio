@@ -89,13 +89,22 @@ p {
 
 /* nav */
 .navbar {
+  position: fixed;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   color: var(--color-white);
-  background-color: #ffbb5c;
+  background-color: transparent;
   padding: 16px;
+  transition: all var(--animation--short-duration) ease-in-out;
 }
+
+.navbar.navbar--colored {
+  background-color: #ffbb5c;
+  padding: 8px;
+}
+
 .navbar__menu {
   display: flex;
   list-style: none;
@@ -135,6 +144,7 @@ p {
   background-position: center;
   padding: 40px;
   text-align: center;
+  padding-top: 150px;
 }
 
 .home__avatar {
