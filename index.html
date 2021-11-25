@@ -26,28 +26,30 @@
         <a href="#">🔶</a>
         <a href="#">이준근</a>
       </div>
-          <ul class="navbar__menu">
-            <li class="navbar__menu__item" data-link=".home">Home</li>
-            <li class="navbar__menu__item" data-link=".about">About</li>
-            <li class="navbar__menu__item" data-link=".skill">Skills</li>
-            <li class="navbar__menu__item" data-link=".work">My work</li>
-            <li class="navbar__menu__item" data-link=".testimonials">Testimonial</li>
-            <li class="navbar__menu__item" data-link=".contact">Contact</li>
-          </ul>      
+      <ul class="navbar__menu">
+        <li class="navbar__menu__item" data-link=".home">Home</li>
+        <li class="navbar__menu__item" data-link=".about">About</li>
+        <li class="navbar__menu__item" data-link=".skill">Skills</li>
+        <li class="navbar__menu__item" data-link=".work">My work</li>
+        <li class="navbar__menu__item" data-link=".testimonials">
+          Testimonial
+        </li>
+        <li class="navbar__menu__item" data-link=".contact">Contact</li>
+      </ul>
 
-     <!-- Toggle button -->
-     <button class="navbar__toggle-btn"><i class="fas fa-bars"></i></button>
-
-
+      <!-- Toggle button -->
+      <button class="navbar__toggle-btn"><i class="fas fa-bars"></i></button>
     </nav>
     <!-- Home -->
     <section class="home">
-      <img class="home__avatar" src="asset/profile.jpg" alt="Jun's photo" /></div>
-      <h1 class="home__title">Hello,<br />I'm Dream Coder</h1>
-      <h2 class="home__description">
-        A Software Engineer currently residing in Seoul, Korea.
-      </h2>
-      <button class="home__contact">CONTACT ME</button>
+      <div class="home__container">
+        <img class="home__avatar" src="asset/profile.jpg" alt="Jun's photo" />
+        <h1 class="home__title">Hello,<br />I'm Dream Coder</h1>
+        <h2 class="home__description">
+          A Software Engineer currently residing in Seoul, Korea.
+        </h2>
+        <button class="home__contact">CONTACT ME</button>
+      </div>
     </section>
     <!-- About -->
     <section class="about">
@@ -68,7 +70,7 @@
         </div>
         <div class="major">
           <div class="major__icon"><i class="fas fa-mobile"></i></div>
-          <h2 class="major__title">Mobile</>
+          <h2 class="major__title">Mobile</h2>
           <p class="major__description">
             Android, iOS, React Native, Flutter,<br />
             Java, Swift, Kotlin
@@ -76,7 +78,7 @@
         </div>
         <div class="major">
           <div class="major__icon"><i class="fas fa-server"></i></div>
-          <h2 class="major__title">Back-end</>
+          <h2 class="major__title">Back-end</h2>
           <p class="major__description">
             Java, JavaScript, Go, NodeJS,<br />Rest APIs, GraphGL
           </p>
@@ -85,30 +87,33 @@
       <div class="about__job">
         <div class="job">
           <div class="job__logo"><i class="fas fa-graduation-cap"></i></div>
-          <div class="job__description"> <p class="job__name">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem,
-            ratione.
-          </p>
-          <p class="job__period">Lorem ipsum dolor sit amet.</p></div>
-           
+          <div class="job__description">
+            <p class="job__name">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem,
+              ratione.
+            </p>
+            <p class="job__period">Lorem ipsum dolor sit amet.</p>
           </div>
+        </div>
         <div class="job">
           <div class="job__logo"><i class="fas fa-school"></i></div>
-          <div class="job__description">      <p class="job__name">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse,
-            corporis.
-          </p>
-          <p class="job__period">Lorem ipsum dolor sit amet.</p></div>
-      
+          <div class="job__description">
+            <p class="job__name">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse,
+              corporis.
+            </p>
+            <p class="job__period">Lorem ipsum dolor sit amet.</p>
           </div>
+        </div>
         <div class="job">
-          <div class="job__logo"><i class="fab fa-leanpub"></i></div>          
-          <div class="job__description">   <p class="job__name">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-            Voluptates, quam.
-          </p>
-          <p class="job__period">Lorem ipsum dolor sit amet.</p>  </div>
-                 
+          <div class="job__logo"><i class="fab fa-leanpub"></i></div>
+          <div class="job__description">
+            <p class="job__name">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Voluptates, quam.
+            </p>
+            <p class="job__period">Lorem ipsum dolor sit amet.</p>
+          </div>
         </div>
       </div>
     </section>
@@ -119,161 +124,194 @@
         <h2>Skills & Attributes</h2>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi soluta
-          eaque aliquam nulla nobis. Debitis magnam magni deleniti molestiae iure,
-          possimus quam nihil qui voluptatem et, placeat, harum nesciunt optio!
+          eaque aliquam nulla nobis. Debitis magnam magni deleniti molestiae
+          iure, possimus quam nihil qui voluptatem et, placeat, harum nesciunt
+          optio!
         </p>
         <div class="skillset">
-          <div class="skillset__left"><h3 class="skillset__title">skills</h3>
-            <div class="skill__description"> <span>HTML</span><span>99%</span></div>
-             
-              <div class="skill__bar">
-                <div class="skill__value" style="width: 99%;"></div>
-              </div>
-              <div class="skill__description"> <span>CSS</span><span>90%</span></div>
-             
-              <div class="skill__bar">
-                <div class="skill__value" style="width: 90%;"></div>
-              </div>
-              <div class="skill__description"><span>JAVASCRIPT</span><span>90%</span></div>
-              
-              <div class="skill__bar">
-                <div class="skill__value" style="width: 90%;"></div>
-              </div>
-              <div class="skill__description"> <span>TYPESCRIPT</span><span>80%</span></div>
-             
-              <div class="skill__bar">
-                <div class="skill__value" style="width: 80%;"></div>
-              </div>
-              <div class="skill__description"><span>REACT</span><span>88%</span></div>
-              
-              <div class="skill__bar">
-                <div class="skill__value" style="width: 88%;"></div>
-              </div>
-              <div class="skill__description"> <span>NODEJS</span><span>77%</span></div>
-             
-              <div class="skill__bar">
-                <div class="skill__value" style="width: 77%;"></div>
-              </div>
-          </div>
-        
-        <div class="skillset__right"><div class="tools"><h3 class="skillset__title">Tools</h3>
-          <ul class="tools__list">
-        <li><span>Android development tools</span></li>
-        <li><span>iOS develoment tools</span></li>
-        <li><span>Sublime Text with Plug-imgs</span></li>
-        <li><span>Visual Studio</span></li>
-        <li><span>Team Foundation</span></li>
-        <li><span>Adobe Programs</span></li>
-        <li><span>Sketch app</span></li>
-      </ul>
-    </div>
-  <div class="etc"><h3 class="skillset__title">Etc</h3>
-    <ul class="etc__list">
-      <li><span>Git</span></li>
-      <li><span>Scrum master</span></li>
-      <li><span>Math</span></li>
-    </ul>
-  </div>
-  </div>
+          <div class="skillset__left">
+            <h3 class="skillset__title">skills</h3>
+            <div class="skill__description">
+              <span>HTML</span><span>99%</span>
+            </div>
 
+            <div class="skill__bar">
+              <div class="skill__value" style="width: 99%"></div>
+            </div>
+            <div class="skill__description">
+              <span>CSS</span><span>90%</span>
+            </div>
+
+            <div class="skill__bar">
+              <div class="skill__value" style="width: 90%"></div>
+            </div>
+            <div class="skill__description">
+              <span>JAVASCRIPT</span><span>90%</span>
+            </div>
+
+            <div class="skill__bar">
+              <div class="skill__value" style="width: 90%"></div>
+            </div>
+            <div class="skill__description">
+              <span>TYPESCRIPT</span><span>80%</span>
+            </div>
+
+            <div class="skill__bar">
+              <div class="skill__value" style="width: 80%"></div>
+            </div>
+            <div class="skill__description">
+              <span>REACT</span><span>88%</span>
+            </div>
+
+            <div class="skill__bar">
+              <div class="skill__value" style="width: 88%"></div>
+            </div>
+            <div class="skill__description">
+              <span>NODEJS</span><span>77%</span>
+            </div>
+
+            <div class="skill__bar">
+              <div class="skill__value" style="width: 77%"></div>
+            </div>
+          </div>
+
+          <div class="skillset__right">
+            <div class="tools">
+              <h3 class="skillset__title">Tools</h3>
+              <ul class="tools__list">
+                <li><span>Android development tools</span></li>
+                <li><span>iOS develoment tools</span></li>
+                <li><span>Sublime Text with Plug-imgs</span></li>
+                <li><span>Visual Studio</span></li>
+                <li><span>Team Foundation</span></li>
+                <li><span>Adobe Programs</span></li>
+                <li><span>Sketch app</span></li>
+              </ul>
+            </div>
+            <div class="etc">
+              <h3 class="skillset__title">Etc</h3>
+              <ul class="etc__list">
+                <li><span>Git</span></li>
+                <li><span>Scrum master</span></li>
+                <li><span>Math</span></li>
+              </ul>
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
-     
     </section>
     <!-- Project -->
     <section class="work">
-     <div class="section__container">
-      <h1>My work</h1>
-      <h3>Projects</h3>
-      <div class="work__category">
-        <button class="category__btn">All<span class="category__count">8</span></button>
-        <button class="category__btn">Front-end<span class="category__count">3</span></button>
-        <button class="category__btn">Back-end<span class="category__count">3</span></button>
-        <button class="category__btn">Mobile<span class="category__count">2</span></button>
+      <div class="section__container">
+        <h1>My work</h1>
+        <h3>Projects</h3>
+        <div class="work__category">
+          <button class="category__btn">
+            All<span class="category__count">8</span>
+          </button>
+          <button class="category__btn">
+            Front-end<span class="category__count">3</span>
+          </button>
+          <button class="category__btn">
+            Back-end<span class="category__count">3</span>
+          </button>
+          <button class="category__btn">
+            Mobile<span class="category__count">2</span>
+          </button>
+        </div>
+        <div class="work__project">
+          <a href="#" class="project" target="blank">
+            <img class="project__img" src="asset/favicon.png" alt="project" />
+            <div class="project__describtion">
+              <h3>Youtube Site</h3>
+              <span>Clone coding with HTML and CSS</span>
+            </div>
+          </a>
+          <a href="#" class="project" target="blank">
+            <img class="project__img" src="asset/favicon.png" alt="project" />
+            <div class="project__describtion">
+              <h3>Responsive Navbar</h3>
+              <span>HTML, CSS with media query</span>
+            </div>
+          </a>
+          <a href="#" class="project" target="blank">
+            <img class="project__img" src="asset/favicon.png" alt="project" />
+            <div class="project__describtion">
+              <h3>Shopping mall game</h3>
+              <span>HTML, CSS, JavaScript, Json</span>
+            </div>
+          </a>
+          <a href="#" class="project" target="blank">
+            <img class="project__img" src="asset/favicon.png" alt="project" />
+            <div class="project__describtion">
+              <h3>TO-DO List</h3>
+              <span>HTML, CSS, JavaScript, LocalStrage</span>
+            </div>
+          </a>
+          <a href="#" class="project" target="blank">
+            <img class="project__img" src="asset/favicon.png" alt="project" />
+            <div class="project__describtion">
+              <h3>Project</h3>
+              <span>Explanation</span>
+            </div>
+          </a>
+          <a href="#" class="project" target="blank">
+            <img class="project__img" src="asset/favicon.png" alt="project" />
+            <div class="project__describtion">
+              <h3>Project</h3>
+              <span>Explanation</span>
+            </div>
+          </a>
+          <a href="#" class="project" target="blank">
+            <img class="project__img" src="asset/favicon.png" alt="project" />
+            <div class="project__describtion">
+              <h3>Project</h3>
+              <span>Explanation</span>
+            </div>
+          </a>
+          <a href="#" class="project" target="blank">
+            <img class="project__img" src="asset/favicon.png" alt="project" />
+            <div class="project__describtion">
+              <h3>Project</h3>
+              <span>Explanation</span>
+            </div>
+          </a>
+        </div>
       </div>
-      <div class="work__project">
-        <a href=# class="project" target="blank">
-        <img class="project__img" src="asset/favicon.png" alt="project">
-        <div class="project__describtion">
-          <h3>Youtube Site</h3>
-          <span>Clone coding with HTML and CSS</span>
-        </div>
-      </a>
-      <a href=# class="project" target="blank">
-        <img class="project__img" src="asset/favicon.png" alt="project">
-        <div class="project__describtion">
-          <h3>Responsive Navbar</h3>
-          <span>HTML, CSS with media query</span>
-        </div>
-      </a>
-      <a href=# class="project" target="blank">
-        <img class="project__img" src="asset/favicon.png" alt="project">
-        <div class="project__describtion">
-          <h3>Shopping mall game</h3>
-          <span>HTML, CSS, JavaScript, Json</span>
-        </div>
-      </a>
-      <a href=# class="project" target="blank">
-        <img class="project__img" src="asset/favicon.png" alt="project">
-        <div class="project__describtion">
-          <h3>TO-DO List</h3>
-          <span>HTML, CSS, JavaScript, LocalStrage</span>
-        </div>
-      </a>
-      <a href=# class="project" target="blank">
-        <img class="project__img" src="asset/favicon.png" alt="project">
-        <div class="project__describtion">
-          <h3>Project</h3>
-          <span>Explanation</span>
-        </div>
-      </a>
-      <a href=# class="project" target="blank">
-        <img class="project__img" src="asset/favicon.png" alt="project">
-        <div class="project__describtion">
-          <h3>Project</h3>
-          <span>Explanation</span>
-        </div>
-      </a>
-      <a href=# class="project" target="blank">
-        <img class="project__img" src="asset/favicon.png" alt="project">
-        <div class="project__describtion">
-          <h3>Project</h3>
-          <span>Explanation</span>
-        </div>
-      </a>
-      <a href=# class="project" target="blank">
-        <img class="project__img" src="asset/favicon.png" alt="project">
-        <div class="project__describtion">
-          <h3>Project</h3>
-          <span>Explanation</span>
-        </div>
-      </a>
-      </div>
-     </div>
-    
     </section>
     <!-- Testimonial -->
     <section class="testimonials">
-     <div class="section__container">
-      <h1>Testimonials</h1>
-      <h3>See what they say about me</h3>
-      <div class="testimonial">
-        <div class="testimonial__container">
-          <img class="testimonial__avater" src="asset/people.jpg" alt="people"/>
-          <div class="testimonial__speech-bubble">
-            <p>Lorem ipsum dolor sit amet consectetur, adipisici Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate, odio!</p>
-            <p class="name"><a href="#">June</a> / TigerSpike</p>
+      <div class="section__container">
+        <h1>Testimonials</h1>
+        <h3>See what they say about me</h3>
+        <div class="testimonial">
+          <div class="testimonial__container">
+            <img
+              class="testimonial__avater"
+              src="asset/people.jpg"
+              alt="people"
+            />
+            <div class="testimonial__speech-bubble">
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisici Lorem ipsum
+                dolor sit amet consectetur, adipisicing elit. Cupiditate, odio!
+              </p>
+              <p class="name"><a href="#">June</a> / TigerSpike</p>
+            </div>
+          </div>
+          <div class="testimonial__container">
+            <div class="testimonial__speech-bubble">
+              <p>Lorem ipsum dolor sit amet consectetur, adipisici</p>
+              <p class="name"><a href="#">June</a> / TigerSpike</p>
+            </div>
+            <img
+              class="testimonial__avater"
+              src="asset/people.jpg"
+              alt="people"
+            />
           </div>
         </div>
-        <div class="testimonial__container">          
-          <div class="testimonial__speech-bubble">
-            <p>Lorem ipsum dolor sit amet consectetur, adipisici</p>
-            <p class="name"><a href="#">June</a> / TigerSpike</p>
-          </div>
-          <img class="testimonial__avater" src="asset/people.jpg" alt="people"/>
-        </div>
-      </div>  
-     </div>
+      </div>
     </section>
     <!-- Contact -->
     <section class="contact">
