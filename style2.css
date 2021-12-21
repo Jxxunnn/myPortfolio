@@ -373,15 +373,16 @@ section {
 }
 
 .project__describtion h3 {
-  color: var(--color-white);
+  color: var(--color-orange);
 }
 .project__describtion h3:after {
   display: block;
   content: "";
   position: relative;
   left: 50%;
-  width: 25px;
+  width: 50px;
   height: 2px;
+  transform: translateX(-50%);
   margin-left: -12px;
   margin-top: 8px;
   background-color: var(--color-dark-white);
@@ -483,12 +484,25 @@ section {
   .navbar {
     flex-direction: column;
     align-items: flex-start;
+    background-color: var(--color-pink);
   }
+
+  .navbar.navbar--colored {
+    background-color: #ffbb5c;
+    padding: 16px;
+  }
+
   .navbar__menu {
     flex-direction: column;
     width: 100%;
     text-align: center;
+    display: none;
   }
+
+  .navbar__menu.open {
+    display: block;
+  }
+
   .navbar__menu__item {
     border: none;
   }

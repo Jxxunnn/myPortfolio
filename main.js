@@ -12,6 +12,13 @@ document.addEventListener("scroll", () => {
   }
 });
 
+// Navbar toggle button for small screen
+
+const navbarToggleButton = document.querySelector(".navbar__toggle-btn");
+navbarToggleButton.addEventListener("click", () => {
+  navbarMenu.classList.toggle("open");
+});
+
 // Handle scrolling when tapping on the navbar menu
 
 const navbarMenu = document.querySelector(".navbar__menu");
@@ -37,6 +44,7 @@ homeContactButton.addEventListener("click", () => {
 function scrollIntoView(selector) {
   const scrollTo = document.querySelector(selector);
   scrollTo.scrollIntoView({ behavior: "auto" });
+  navbarMenu.classList.remove("open");
 }
 
 // Make home slowly fade to transparent as the window scrolls down
