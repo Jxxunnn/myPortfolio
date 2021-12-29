@@ -1,0 +1,58 @@
+html
+
+<div class="major">
+  <div class="major__icon"><i class="fas fa-mobile"></i></div>
+  <h2 class="major__title">Mobile</h2>
+  <p class="major__description">
+    Android, iOS, React Native, Flutter,<br />
+    Java, Swift, Kotlin
+  </p>
+</div>
+<div class="major">
+  <div class="major__icon"><i class="fas fa-server"></i></div>
+  <h2 class="major__title">Back-end</h2>
+  <p class="major__description">
+    Java, JavaScript, Go, NodeJS,<br />Rest APIs, GraphGL
+  </p>
+</div>
+
+<div class="skill__description"><span>TYPESCRIPT</span><span>80%</span></div>
+
+<div class="skill__bar">
+  <div class="skill__value" style="width: 80%"></div>
+</div>
+
+<div class="skill__description"><span>NODEJS</span><span>77%</span></div>
+
+<div class="skill__bar">
+  <div class="skill__value" style="width: 77%"></div>
+</div>
+
+<li><span>Android development tools</span></li>
+<li><span>iOS develoment tools</span></li>
+<li><span>Sublime Text with Plug-imgs</span></li>
+
+<li><span>Team Foundation</span></li>
+<li><span>Adobe Programs</span></li>
+<li><span>Sketch app</span></li>
+
+<li><span>Scrum master</span></li>
+
+<button class="category__btn" data-filter="mobile">
+  Mobile<span class="category__count">2</span>
+</button>
+
+<a href="#" class="project" target="blank" data-type="mobile">
+  <img class="project__img" src="asset/favicon.png" alt="project" />
+  <div class="project__describtion">
+    <h3>Project</h3>
+    <span>Explanation</span>
+  </div>
+</a>
+<a href="#" class="project" target="blank" data-type="mobile">
+  <img class="project__img" src="asset/favicon.png" alt="project" />
+  <div class="project__describtion">
+    <h3>Project</h3>
+    <span>Explanation</span>
+  </div>
+</a>
